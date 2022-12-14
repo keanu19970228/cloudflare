@@ -2,11 +2,11 @@
 
 class Api
 {
-    // 请求 URL
+    // URL
     private $url;
-
+    // email
     private $email;
-
+    // apikey
     private $apikey;
 
     public function __construct($email, $apikey)
