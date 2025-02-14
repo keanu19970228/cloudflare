@@ -1,7 +1,7 @@
 <?php
 require 'api.php';
 
-$act        = $_GET['act'];
+// $act        = @$_GET['act'];
 $data       = json_decode($_POST['data'], true);
 
 // DNS 操作
